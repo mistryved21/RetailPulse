@@ -1,0 +1,34 @@
+[
+  {
+    "id": "rule_1",
+    "name": "Revenue Contraction Alert",
+    "metric": "revenue_growth",
+    "threshold": -10.0,
+    "severity": "Critical",
+    "enabled": true
+  },
+  {
+    "id": "rule_2",
+    "name": "Profit Margin Warning",
+    "metric": "profit_growth",
+    "threshold": -15.0,
+    "severity": "Critical",
+    "enabled": true
+  },
+  {
+    "id": "rule_3",
+    "name": "Category Drop Alert",
+    "metric": "category_drop",
+    "threshold": -20.0,
+    "severity": "Warning",
+    "enabled": true
+  },
+  {
+    "id": "rule_4",
+    "name": "Gross Margin Compression",
+    "metric": "gross_margin",
+    "threshold": 20.0,
+    "severity": "Warning",
+    "enabled": true
+  }
+]

@@ -1,0 +1,51 @@
+order_id,product_name,category,quantity,unit_price,total_amount,order_date,customer_name,city,payment_method,status
+1001,Wireless Mouse,Electronics,2,599.00,1198.00,2024-01-15,Rahul Sharma,Mumbai,UPI,Delivered
+1002,Cotton T-Shirt,Clothing,3,499.00,1497.00,2024-01-16,Priya Patel,Delhi,Credit Card,Delivered
+1003,Organic Green Tea,Food & Beverages,5,199.00,995.00,2024-01-17,Amit Kumar,Bangalore,Cash,Delivered
+1004,Bluetooth Headphones,Electronics,1,1999.00,1999.00,2024-01-18,Sneha Reddy,Hyderabad,Debit Card,Delivered
+1005,Running Shoes,Sports,1,2499.00,2499.00,2024-01-20,Vikram Singh,Delhi,Net Banking,Delivered
+1006,Cooking Pan Set,Home & Kitchen,1,1299.00,1299.00,2024-01-22,Meera Nair,Chennai,UPI,Delivered
+1007,Face Cream,Beauty,2,349.00,698.00,2024-01-23,Ananya Gupta,Pune,Credit Card,Delivered
+1008,Laptop Stand,Electronics,1,899.00,899.00,2024-01-25,Rohit Jain,Mumbai,UPI,Delivered
+1009,Yoga Mat,Sports,2,599.00,1198.00,2024-01-26,Kavita Iyer,Bangalore,Debit Card,Delivered
+1010,Novel - The Secret,Books,3,299.00,897.00,2024-01-28,Suresh Menon,Chennai,Cash,Delivered
+1011,LED Desk Lamp,Electronics,1,749.00,749.00,2024-02-01,Pooja Desai,Mumbai,Credit Card,Delivered
+1012,Denim Jeans,Clothing,2,1199.00,2398.00,2024-02-03,Arun Verma,Delhi,UPI,Delivered
+1013,Protein Powder,Food & Beverages,1,1599.00,1599.00,2024-02-05,Deepak Rao,Hyderabad,Net Banking,Delivered
+1014,Smart Watch,Electronics,1,3999.00,3999.00,2024-02-07,Nisha Agarwal,Pune,Credit Card,Returned
+1015,Board Game,Toys,2,699.00,1398.00,2024-02-09,Rajesh Pillai,Chennai,Cash,Delivered
+1016,Moisturizer,Beauty,3,449.00,1347.00,2024-02-11,Swati Kapoor,Delhi,UPI,Delivered
+1017,Water Bottle,Sports,4,199.00,796.00,2024-02-13,Kiran Bhat,Bangalore,Debit Card,Delivered
+1018,Table Lamp,Home & Kitchen,1,1499.00,1499.00,2024-02-15,Sanjay Das,Mumbai,Credit Card,Delivered
+1019,USB-C Cable,Electronics,5,149.00,745.00,2024-02-17,Pallavi Joshi,Hyderabad,UPI,Delivered
+1020,Casual Shirt,Clothing,1,799.00,799.00,2024-02-19,Manish Tiwari,Delhi,Cash,Delivered
+1021,Coffee Maker,Home & Kitchen,1,2999.00,2999.00,2024-02-21,Divya Saxena,Pune,Net Banking,Delivered
+1022,Badminton Racket,Sports,2,849.00,1698.00,2024-02-23,Prakash Yadav,Chennai,Debit Card,Delivered
+1023,Shampoo,Beauty,2,299.00,598.00,2024-02-25,Ritu Singh,Mumbai,UPI,Delivered
+1024,Kids Toy Car,Toys,3,399.00,1197.00,2024-02-27,Gaurav Mishra,Delhi,Cash,Delivered
+1025,Power Bank,Electronics,2,999.00,1998.00,2024-03-01,Sunita Pandey,Bangalore,Credit Card,Delivered
+1026,Formal Trousers,Clothing,1,1599.00,1599.00,2024-03-03,Ashok Kulkarni,Hyderabad,UPI,Delivered
+1027,Mixed Dry Fruits,Food & Beverages,2,599.00,1198.00,2024-03-05,Lata Sharma,Chennai,Debit Card,Delivered
+1028,Keyboard,Electronics,1,1299.00,1299.00,2024-03-07,Ajay Thakur,Mumbai,Net Banking,Delivered
+1029,Fitness Band,Sports,1,1499.00,1499.00,2024-03-09,Neha Chavan,Pune,UPI,Returned
+1030,Storybook Set,Books,2,499.00,998.00,2024-03-11,Manoj Kumar,Delhi,Cash,Delivered
+1031,Wireless Earbuds,Electronics,2,1799.00,3598.00,2024-03-13,Rekha Jain,Bangalore,Credit Card,Delivered
+1032,Winter Jacket,Clothing,1,2999.00,2999.00,2024-03-15,Vivek Chopra,Delhi,Debit Card,Delivered
+1033,Olive Oil,Food & Beverages,3,399.00,1197.00,2024-03-17,Shilpa Shetty,Mumbai,UPI,Delivered
+1034,Pressure Cooker,Home & Kitchen,1,1899.00,1899.00,2024-03-19,Ramesh Babu,Chennai,Cash,Delivered
+1035,Cricket Bat,Sports,1,1999.00,1999.00,2024-03-21,Sachin Wagh,Pune,Net Banking,Delivered
+1036,Lipstick Set,Beauty,1,899.00,899.00,2024-03-23,Anjali Mehta,Hyderabad,Credit Card,Delivered
+1037,Puzzle Game,Toys,4,249.00,996.00,2024-03-25,Dinesh Sharma,Delhi,UPI,Delivered
+1038,Monitor 24 inch,Electronics,1,12999.00,12999.00,2024-03-27,Prateek Reddy,Bangalore,Net Banking,Delivered
+1039,Saree,Clothing,1,1499.00,1499.00,2024-03-29,Geeta Nair,Chennai,Debit Card,Delivered
+1040,Biscuit Pack,Food & Beverages,10,49.00,490.00,2024-03-31,Sunil Verma,Mumbai,Cash,Delivered
+1041,Mixer Grinder,Home & Kitchen,1,3499.00,3499.00,2024-04-02,Harini Rao,Hyderabad,Credit Card,Delivered
+1042,Football,Sports,2,999.00,1998.00,2024-04-04,Arjun Nair,Bangalore,UPI,Delivered
+1043,Sunscreen SPF50,Beauty,2,549.00,1098.00,2024-04-06,Megha Kulkarni,Pune,Cash,Delivered
+1044,Action Figure,Toys,3,599.00,1797.00,2024-04-08,Tarun Gupta,Delhi,Debit Card,Delivered
+1045,Smartphone Case,Electronics,3,299.00,897.00,2024-04-10,Bhavna Shah,Mumbai,UPI,Delivered
+1046,Kurta Set,Clothing,1,899.00,899.00,2024-04-12,Vijay Patil,Chennai,Net Banking,Delivered
+1047,Instant Noodles,Food & Beverages,12,25.00,300.00,2024-04-14,Asha Bose,Bangalore,Cash,Delivered
+1048,Bedsheet Set,Home & Kitchen,1,799.00,799.00,2024-04-16,Nitin Joshi,Hyderabad,Credit Card,Delivered
+1049,Skipping Rope,Sports,2,199.00,398.00,2024-04-18,Seema Yadav,Delhi,UPI,Delivered
+1050,Self-Help Book,Books,1,350.00,350.00,2024-04-20,Pankaj Mishra,Mumbai,Cash,Delivered

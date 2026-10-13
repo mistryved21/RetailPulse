@@ -1,0 +1,31 @@
+patient_id,patient_name,age,gender,department,diagnosis,admission_date,discharge_date,doctor_name,treatment_cost,insurance,city,status
+P001,Raj Kapoor,45,Male,Cardiology,Heart Failure,2024-01-10,2024-01-18,Dr. Mehta,85000,Yes,Mumbai,Recovered
+P002,Sunita Sharma,32,Female,Gynecology,PCOS,2024-01-12,2024-01-14,Dr. Gupta,12000,Yes,Delhi,Recovered
+P003,Amit Patel,56,Male,Orthopedics,Knee Replacement,2024-01-15,2024-01-28,Dr. Iyer,150000,Yes,Bangalore,Recovered
+P004,Priya Nair,28,Female,Dermatology,Eczema,2024-01-18,2024-01-18,Dr. Reddy,3500,No,Chennai,Recovered
+P005,Vikram Malhotra,67,Male,Neurology,Stroke,2024-01-20,2024-02-05,Dr. Shah,220000,Yes,Mumbai,Recovered
+P006,Meera Das,41,Female,Cardiology,Arrhythmia,2024-01-22,2024-01-26,Dr. Mehta,45000,Yes,Pune,Recovered
+P007,Suresh Rao,53,Male,Gastro,Ulcer,2024-01-25,2024-01-30,Dr. Kulkarni,28000,No,Hyderabad,Recovered
+P008,Kavita Singh,38,Female,Orthopedics,Fracture,2024-02-01,2024-02-08,Dr. Iyer,35000,Yes,Delhi,Recovered
+P009,Deepak Joshi,49,Male,Pulmonology,Asthma,2024-02-03,2024-02-05,Dr. Bhat,8000,Yes,Bangalore,Recovered
+P010,Ananya Verma,25,Female,Gynecology,Pregnancy,2024-02-07,2024-02-10,Dr. Gupta,25000,Yes,Chennai,Recovered
+P011,Rohit Agarwal,60,Male,Cardiology,Bypass Surgery,2024-02-10,2024-02-25,Dr. Mehta,350000,Yes,Mumbai,Recovered
+P012,Neha Kapoor,34,Female,Dermatology,Acne Treatment,2024-02-12,2024-02-12,Dr. Reddy,5000,No,Pune,Recovered
+P013,Manoj Tiwari,72,Male,Neurology,Parkinson,2024-02-15,2024-02-28,Dr. Shah,95000,Yes,Delhi,Under Treatment
+P014,Lata Desai,47,Female,Gastro,Gallstones,2024-02-18,2024-02-23,Dr. Kulkarni,65000,Yes,Hyderabad,Recovered
+P015,Arjun Nair,30,Male,Orthopedics,Ligament Tear,2024-02-20,2024-03-05,Dr. Iyer,80000,Yes,Bangalore,Recovered
+P016,Divya Saxena,55,Female,Cardiology,High BP,2024-02-22,2024-02-24,Dr. Mehta,15000,No,Chennai,Recovered
+P017,Gaurav Mishra,43,Male,Pulmonology,Pneumonia,2024-02-25,2024-03-03,Dr. Bhat,42000,Yes,Mumbai,Recovered
+P018,Ritu Sharma,29,Female,Gynecology,Fibroid,2024-03-01,2024-03-06,Dr. Gupta,55000,Yes,Delhi,Recovered
+P019,Prakash Yadav,65,Male,Neurology,Epilepsy,2024-03-05,2024-03-12,Dr. Shah,38000,Yes,Pune,Under Treatment
+P020,Shilpa Menon,36,Female,Dermatology,Psoriasis,2024-03-08,2024-03-08,Dr. Reddy,7500,No,Hyderabad,Under Treatment
+P021,Ajay Thakur,58,Male,Gastro,Liver Disease,2024-03-10,2024-03-20,Dr. Kulkarni,120000,Yes,Bangalore,Recovered
+P022,Pallavi Joshi,44,Female,Cardiology,Valve Repair,2024-03-12,2024-03-25,Dr. Mehta,280000,Yes,Mumbai,Recovered
+P023,Sanjay Kumar,51,Male,Orthopedics,Spine Surgery,2024-03-15,2024-04-01,Dr. Iyer,200000,Yes,Chennai,Recovered
+P024,Bhavna Shah,27,Female,Pulmonology,Bronchitis,2024-03-18,2024-03-22,Dr. Bhat,18000,No,Delhi,Recovered
+P025,Nitin Reddy,62,Male,Neurology,Brain Tumor,2024-03-20,2024-04-15,Dr. Shah,450000,Yes,Hyderabad,Under Treatment
+P026,Geeta Nair,39,Female,Gynecology,Cesarean,2024-03-22,2024-03-28,Dr. Gupta,75000,Yes,Bangalore,Recovered
+P027,Tarun Gupta,48,Male,Gastro,Appendicitis,2024-03-25,2024-03-29,Dr. Kulkarni,45000,Yes,Pune,Recovered
+P028,Seema Yadav,33,Female,Dermatology,Hair Loss,2024-03-28,2024-03-28,Dr. Reddy,6000,No,Mumbai,Under Treatment
+P029,Pankaj Mishra,70,Male,Cardiology,Pacemaker,2024-04-01,2024-04-10,Dr. Mehta,180000,Yes,Delhi,Recovered
+P030,Asha Bose,42,Female,Orthopedics,Hip Replacement,2024-04-05,2024-04-20,Dr. Iyer,175000,Yes,Chennai,Recovered

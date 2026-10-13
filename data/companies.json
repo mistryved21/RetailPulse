@@ -1,0 +1,28 @@
+{
+  "mistry-61c0f8": {
+    "company_id": "mistry-61c0f8",
+    "name": "mistry",
+    "email": "mistryvedu21@gmail.com",
+    "recipients": [
+      "mistryvedu21@gmail.com"
+    ],
+    "db_config": {},
+    "smtp_config": {},
+    "column_mapping": {},
+    "selected_tables": [],
+    "created_at": "2026-09-14T10:29:15.318788"
+  },
+  "mistry-fc0ffd": {
+    "company_id": "mistry-fc0ffd",
+    "name": "mistry",
+    "email": "mistryvedu21@gmail.com",
+    "recipients": [
+      "mistryvedu21@gmail.com"
+    ],
+    "db_config": {},
+    "smtp_config": {},
+    "column_mapping": {},
+    "selected_tables": [],
+    "created_at": "2026-09-14T10:29:23.494869"
+  }
+}

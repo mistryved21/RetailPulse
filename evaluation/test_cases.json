@@ -1,0 +1,86 @@
+[
+    {
+        "id": "sql_1",
+        "category": "sales",
+        "query": "Show total revenue by category",
+        "expected_sql_contains": ["SUM", "total_amount", "categories", "GROUP BY"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "bar"}
+    },
+    {
+        "id": "sql_2",
+        "category": "products",
+        "query": "What are the top 5 most expensive products?",
+        "expected_sql_contains": ["ORDER BY price DESC", "LIMIT 5", "products"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "bar"}
+    },
+    {
+        "id": "sql_3",
+        "category": "customers",
+        "query": "Count the number of customers in Mumbai",
+        "expected_sql_contains": ["COUNT", "customers", "city", "Mumbai"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": false, "needs_forecast": false, "needs_insight": false, "needs_report": false, "needs_email": false, "chart_type": "auto"}
+    },
+    {
+        "id": "sql_4",
+        "category": "inventory",
+        "query": "Which products are below their reorder level?",
+        "expected_sql_contains": ["inventory", "current_stock", "reorder_level"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": false, "needs_forecast": false, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "auto"}
+    },
+    {
+        "id": "sql_5",
+        "category": "sales",
+        "query": "What is the average order value?",
+        "expected_sql_contains": ["AVG", "total_amount"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": false, "needs_forecast": false, "needs_insight": false, "needs_report": false, "needs_email": false, "chart_type": "auto"}
+    },
+    {
+        "id": "sql_6",
+        "category": "customers",
+        "query": "Show customer registrations by month",
+        "expected_sql_contains": ["GROUP BY", "registration_date"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "line"}
+    },
+    {
+        "id": "sql_7",
+        "category": "inventory",
+        "query": "List all warehouses and their total stock",
+        "expected_sql_contains": ["SUM", "current_stock", "warehouse_location", "GROUP BY"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "bar"}
+    },
+    {
+        "id": "sql_8",
+        "category": "sales",
+        "query": "Breakdown of payment methods used",
+        "expected_sql_contains": ["COUNT", "payment_method", "GROUP BY"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "pie"}
+    },
+    {
+        "id": "plan_1",
+        "category": "forecasting",
+        "query": "Forecast sales for the next 30 days",
+        "expected_sql_contains": ["sales", "sale_date"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": true, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "line"}
+    },
+    {
+        "id": "plan_2",
+        "category": "forecasting",
+        "query": "Predict inventory demand for the next month",
+        "expected_sql_contains": ["inventory"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": true, "needs_insight": true, "needs_report": false, "needs_email": false, "chart_type": "line"}
+    },
+    {
+        "id": "plan_3",
+        "category": "report",
+        "query": "Generate a full report on last month's performance and email it",
+        "expected_sql_contains": ["sales"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": true, "needs_email": true, "chart_type": "auto"}
+    },
+    {
+        "id": "plan_4",
+        "category": "report",
+        "query": "Download a PDF report of our top customers",
+        "expected_sql_contains": ["customers", "ORDER BY"],
+        "expected_plan": {"needs_sql": true, "needs_visualization": true, "needs_forecast": false, "needs_insight": true, "needs_report": true, "needs_email": false, "chart_type": "auto"}
+    }
+]
